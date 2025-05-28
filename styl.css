@@ -1,0 +1,45 @@
+body{
+    font-family: Georgia, serif;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+header,footer{
+    background-color: #824555;
+    padding: 20px;
+    text-align: center;
+}
+.lewy,.srodkowy{
+    width: 30%;
+    height:350px;
+}
+.lewy{
+    background-color: #A26475;
+}
+.srodkowy{
+    background-color: #824555;
+}
+.prawy{
+    background-color: #A26475;
+    width: 40%;
+    height: 350px;
+    overflow:auto;
+}
+img{
+    float: left;
+    text-align: right;
+    width: 50px;
+}
+table,p,dl{
+    margin: 10px;
+}
+dl{
+    padding-top: 20px;
+}
+th,td{
+    padding: 5px;
+    border: 3px solid #824555;
+}
+main{
+    display: flex;
+}
